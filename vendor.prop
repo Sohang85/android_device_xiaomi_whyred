@@ -140,6 +140,12 @@ vendor.gralloc.enable_fb_ubwc=1
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno 
 
+# Fling Velocity
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # DPM
 persist.vendor.dpm.loglevel=0
 persist.vendor.dpm.nsrm.bkg.evt=3955
